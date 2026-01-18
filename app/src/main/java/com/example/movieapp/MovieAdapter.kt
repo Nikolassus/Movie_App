@@ -9,7 +9,7 @@ import com.example.movieapp.databinding.ItemMovieBinding
 
 class MovieAdapter(
     private val movies: List<Movie>,
-    private val onItemClick: (Movie) -> Unit // ფუნქცია, რომელიც HomeFragment-იდან მოდის
+    private val onItemClick: (Movie) -> Unit 
 ) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     inner class MovieViewHolder(val binding: ItemMovieBinding) : RecyclerView.ViewHolder(binding.root)
